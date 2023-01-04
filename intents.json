@@ -1,0 +1,538 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "fees",
+      "patterns": [
+        "Fees",
+        "how pay",
+        "funding"
+      ],
+      "responses": [
+        "<br />Students are required to pay the course fee on semester basis and there will be two semester payments that need to be completed within a specified academic year. Once you have been educated on the amount to be paid as your semester fee after the reduction of scholarship amount (if entitled), you will be needed to complete the payment within the prescribed deadline (2 weeks)."
+      ]
+    },
+
+    {
+      "tag": "Hostal",
+      "patterns": [
+        "Hostals",
+        "Hostal facilities"
+      ],
+      "responses": [
+        "All our facilities are developed and managed to give you a real university experience and we encourage you to check into our hostel facilities which are in par with international standards and staying within the campus will certainly enable you to engage with the university community and take the maximum benefit out of the 4 years you spend at SLTC.<br />* Hostels can be provided on availability."
+      ]
+    },
+
+    {
+      "tag": "Shuttle",
+      "patterns": [
+        "Travel to SLTC",
+        "shuttle service",
+        "how to travel"
+      ],
+      "responses": [
+        "We are providing you with a shuttle service for you to travel safe from home. These shuttles are distributed covering different routes such as High-level route, Malabe, Kadawatha and Panadura."
+      ]
+    },
+
+    {
+      "tag": "clubs",
+      "patterns": [
+        "clubs and societies",
+        "clubs",
+        "societies"
+      ],
+      "responses": [
+        "Student Interactive Society (SIS)<br />SLTC LEO Club<br />Media Club<br />Performing Arts"
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "How to contact campus",
+        "How to contact",
+        "contact",
+        "e-mail"
+      ],
+      "responses": [
+        "Hotline - 0112100500<br />Whatsapp - 0706366566<br />E-mail - info@sltc.ac.lk/admissions@sltc.ac.lk<br /><br />For more information <a href=\"https://sltc.ac.lk/\"> https://sltc.ac.lk/</a>"
+      ]
+    },
+
+    {
+      "tag": "loan",
+      "patterns": [
+        "loans",
+        "loan facilities",
+        "degree loans"
+      ],
+      "responses": [
+        "We could also provide you with lucrative options for collateral free bank loan facilities which could provide you easy payment schemes. Following bank options are available.<br />- NDB<br />- People's Bank."
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        "location is campus",
+        "location",
+        "campus location"
+      ],
+      "responses": [
+        "Main Campus<br />Ingiriya Road, Padukka, Sri Lanka.<br /><br />Colombo Campus<br />No 07, Hector Kobbakaduwa  Mawatha, Colombo 07.<br /><br />City Campus<br />Trace Expert City, Colombo 10"
+      ]
+    },
+
+    {
+      "tag": "times",
+      "patterns": [
+        "Campus opening time",
+        "open time",
+        "Campus opening hours"
+      ],
+      "responses": [
+        "SLTC is the first university to introduce the concept of 24*7 operations where all the students get to access our facilities any time of the day, every day. All our facilities are kept open to access including laboratories, lecture halls, library, cafeteria, multi game court etc. This will enable you to plan your life at SLTC at your own convenience."
+      ]
+    },
+
+    {
+      "tag": "staff",
+      "patterns": [
+        "staff",
+        "staff members"
+      ],
+      "responses": [
+        "Our competent and well experienced staff is considered as the core strength of SLTC in providing high quality academic delivery and support. Maintaining a  1:12  Staff : Student ratio, SLTC believes in providing the best learning experience for you. The full time academic carder consists of 40+ PhD holders."
+      ]
+    },
+
+    {
+      "tag": "sports",
+      "patterns": [
+        "what are the sports we do",
+        "what are the sports",
+        "sports"
+      ],
+      "responses": [
+        "Multigame Sports Complex<br />Fully equipped Gymnasium<br />Outdoor sporting facilities for Netball,<br />Volleyball,<br />Football and Cricket <br />Badminton Court<br />Indoor Sports hall equipped for indoor<br />activities such as<br />Table Tennis/ Carom<br />Cycling Track"
+      ]
+    },
+
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what are the facilities",
+        "facilities"
+      ],
+      "responses": [
+        "Common study areas with Wi-Fi<br />Cafeteria <br />Grocery Shop<br />Washing Bay<br />Amphitheater<br />Accommodation (THE HUB)<br />Stationary shop<br />Library<br />Medical center<br />Labs"
+      ]
+    },
+
+    {
+      "tag": "Discount",
+      "patterns": [
+        "Scholarships"
+      ],
+      "responses": [
+        "Sri Lanka's first merit based youth scholarship scheme awarded to students excelling in academics.<br /><br /><p>3A - 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B - 20%</p><br /><br /><p>A - 30%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C - 10%</p>"
+      ]
+    },
+
+    {
+      "tag": "SLTC",
+      "patterns": [
+        "What is SLTC",
+        "SLTC"
+      ],
+      "responses": [
+        "We are the first Corporate powered, Research based, Residential University with the primary aim of producing readily employable graduates who are skilled to take on a career of their choice with the right knowledge, skills and attitudes. We believe in being the number one research based university in Sri Lanka while paving the way of being the center of excellence in developing the full potential of young graduates for the benefit of our nation as well as world-wide."
+      ]
+    },
+
+    {
+      "tag": "Degree",
+      "patterns": [
+        "What degrees do you have?",
+        "Degree"
+      ],
+      "responses": [
+        "School of Engineering<br />School of Technology<br />School of IT & Computing<br />School of Business<br />School of Music<br />School of Professional Studies<br />School of Graduate Studies"
+      ]
+    },
+
+    {
+      "tag": "Engineering",
+      "patterns": [
+        "School of Engineering"
+      ],
+      "responses": [
+        "<a href=\"https://sltc.ac.lk/education/school-of-engineering/bsc-hons-electronic-and-power-systems\">BSc (Hons) in Engineering in Electronics and Power Systems</a><br /><a href=\"https://sltc.ac.lk/education/school-of-engineering/bsc-hons-electronic-and-telecommunication\">BSc (Hons) in Engineering in Electronics and Telecommunication</a><br /><a href=\"https://sltc.ac.lk/education/school-of-engineering/bsc-hons-electronic-and-engineering-management\">BSc (Hons) in Engineering in Electronics and Engineering Management</a><br /><a href=\"https://sltc.ac.lk/education/school-of-engineering/bsc-hons-information-and-communication-engineering\">BSc (Hons) in Engineering in Information and Communication Engineering (Software Engineering)</a><br /><a href=\"https://sltc.ac.lk/education/school-of-engineering/bsc-hons-civil-engineering\">BSc (Hons) in Engineering in Civil Engineering</a><br /><a href=\"https://sltc.ac.lk/education/school-of-engineering/bsc-hons-mechatronics-engineering\">BSc (Hons) in Engineering in Mechatronics Engineering</a><br /><a href=\"https://sltc.ac.lk/education/school-of-engineering/bsc-hons-bio-systems-engineering\">BSc (Hons) in Bio Systems Engineering</a>"
+
+      ]
+    },
+
+    {
+      "tag": "Bio Systems",
+      "patterns": [
+        "BSc (Hons) in Bio Systems Engineering"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Deepika Dissanayake<br />Duration : 4 Years<br /><br />This degree program aims to provide students with an in-depth understanding of the complex physical, biological and social systems and their interactions involved in the Bio systems and its related areas such as food production, processing and bio process technology, environmental technology, and sustainable management of agricultural technologies. It integrates many of the disciplines and professional areas of engineering, science, policy and management which will enable the students completing the degree program to have a better understanding of the various biological systems, issues and research needs for solving problems and improving the outputs and efficiencies from diverse specialties and the application such knowledge for the successful and sustainable management of various biological systems.<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of three (3) ordinary passes (S) for GCE A/L Examination conducted by the Department of Examinations, Sri Lanka or equivalent foreign examination (London or Cambridge) in Biology scheme."
+
+      ]
+    },
+
+    {
+      "tag": "Mechatronics",
+      "patterns": [
+        "BSc (Hons) in Engineering in Mechatronics Engineering"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Thilini Rajakaruna<br />Duration : 4 Years<br /><br />Mechatronics is relatively new branch of engineering that combines the principals of Mechanical Engineering, Electronic Engineering, Control Engineering , Systems Design engineering and computer engineering. The combination of these engineering principals helps to generate simpler and more cost effective and dependable systems. As a result Mechatronics engineering is at the fore front of technological advancements creating smarter products, devices and process across the variety of sectors. The Mechatronics Degree program at SLTC focuses on providing a sound fundamental understanding of the technical skills and principals of mechatronics engineering and their application in complex open ended engineering tasks and problems.<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) for GCE A/L Examination conducted by the Department of Examinations, Sri Lanka or equivalent foreign examination (London or Cambridge) in Mathematics scheme."
+
+      ]
+    },
+
+    {
+      "tag": "civil",
+      "patterns": [
+        "BSc (Hons) in Engineering in Civil Engineering"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Rajeeve Mallawaarachchi<br />Duration : 4 Years<br /><br />Civil Engineering; a People serving profession, and is regarded as one of the oldest professions in the world. More than 2500 years old remaining of the great civilizations in ancient ruined cities, Sky-high Stupas, Gigantic water tanks, complex irrigation systems, are some of the living examples of our great Civil Engineering Ancestors. Following the tradition, even today, Civil Engineers contribute their knowledge and expertise in creating better living environments for people, which includes the whole infrastructure setup we use to build environments, roads, expressways, railways, air-ports, ports and harbors, bridges, dams, canals, irrigation systems, etc.<br /><br />Career Opportunities:<br />Civil engineer<br />Structural engineer<br />Geotechnical<br />Hydraulics<br />Environmental and Transportation Engineering<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) in approved subjects in the Physical Science stream at GCE A/L Examinations in one and the same sitting and a minimum mark of 30% for the Common General Paper."
+
+      ]
+    },
+
+    {
+      "tag": "ICE",
+      "patterns": [
+        "BSc (Hons) in Engineering in Information and Communication Engineering (Software Engineering)"
+      ],
+      "responses": [
+        "Programme Lead : Dr.L.S.K.Udugama<br />Duration : 4 Years<br /><br />For the first time in Sri Lanka, we are offering a unique undergraduate engineering degree program – B.Sc. Honours in Information and Communication Engineering (ICE) that will prepare you to be at the forefront of Information and Communication technologies that would dominate the world in years to come.<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) in approved subjects in the Physical Science stream or ICT stream at GCE A/L Examinations in one and the same sitting and a minimum mark of 30% for the Common General Paper."
+
+      ]
+    },
+
+    {
+      "tag": "Electronics and Engineering Management",
+      "patterns": [
+        "BSc (Hons) in Engineering in Electronics and Engineering Management"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Hillary Silva<br />Duration : 4 Years<br /><br />The Electronic Engineering and Management Bachelor’s programme includes course and laboratory sessions in Electronics Engineering as well as Finance, Accounting and Business Management. The Electronic Engineering coursework will encompass important themes from Electronic Engineering, Electrical Engineering and Computer Science<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) in approved subjects in the Physical Science stream at GCE A/L Examinations in one and the same sitting and a minimum mark of 30% for the Common General Paper."
+
+      ]
+    },
+
+    {
+      "tag": "Electronics and Telecommunication",
+      "patterns": [
+        "BSc (Hons) in Engineering in Electronics and Telecommunication"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Sumudu Edirisighe<br />Duration : 4 Years<br /><br />This programme teaches how to apply electronics technology to design, test and troubleshoot advanced devices and systems. It trains students in basic electrical theory and hands-on application, subsequently moving on to increasingly complex electrical systems, platforms, telecommunication systems and circuit designs.<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) in approved subjects in the Physical Science stream at GCE A/L Examinations in one and the same sitting and a minimum mark of 30% for the Common General Paper."
+
+      ]
+    },
+
+    {
+      "tag": "Power Systems",
+      "patterns": [
+        "BSc (Hons) in Engineering in Electronics and Power Systems"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Lasith Yasakethu<br />Duration : 4 Years<br /><br />This program constitutes Engineering Science, Physics and Mathematics courses devising the students for employment in Electrical as well as Electronic engineers. Candidates can represent their technical prowess in the areas of electronics, digital signal processing, electromechanical systems, wireless components and systems.<br /><br />Career Prospects:<br />An Electrical Engineer with power systems backdrop will be more exposed to specialized roles in which they are expertise to add more titles such as:<br /><br />Electrical Engineer<br />Electronics Engineer<br />Electrical power systems Engineer<br />Power supply Engineer<br />Power transmission and distribution Engineer<br />AC-DC power systems Engineer<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) in approved subjects in the Physical Science stream at GCE A/L Examinations in one and the same sitting and a minimum mark of 30% for the Common General Paper."
+
+      ]
+    },
+
+    {
+      "tag": "Technology",
+      "patterns": [
+        "School of Technology"
+      ],
+      "responses": [
+        "BTech (Hons) in Electronics<br />BTech (Hons) in Agricultural Technology<br />BTech (Hons) in Environmental Technology<br />BSc in Textile and Clothing Technology<br />BSc in Fashion Merchandise Management"
+
+      ]
+    },
+
+    {
+      "tag": "TechnologyA5",
+      "patterns": [
+        "BSc in Fashion Merchandise Management"
+      ],
+      "responses": [
+        "Duration : 3 Years<br /><br />The objective of this course is to provide a broad knowledge of merchandising and managing products. The course will cover from order enquiry to point of sale. The large spectrum of activities within these boundaries will help students to understand various operations in the merchandising role. The essence of the course will be customer centric and development of new products and markets. The aim of the course is satisfying the customer and offer inspired solutions for his growth. Students will learn world trade, negotiation skills, garment costing, customer and customer relationship management, supply chain management, product development, accessories and embellishments, garment production management, quality, fabric manufacturing, marketing, compliance and research. Students can find employment in merchandising, product development, supply chain, marketing, shop organization and management, retail outlets etc."
+
+      ]
+    },
+
+    {
+      "tag": "TechnologyB4",
+      "patterns": [
+        "BSc in Textile and Clothing Technology"
+      ],
+      "responses": [
+        "Duration : 3 Years<br /><br />This course is aimed at those who wish to embark on textile and clothing technology. It has basic sciences and mathematics coupled with textile and clothing technologies. The accent of this course is textile and clothing manufacturing with emphasis on production management. Students will have knowledge in fabric technology, clothing production management, process improvement and process control, supply chain management, managing production, product development, sustainable development and research. Therefore, these students will be able to fit into challenging positions in fabric technology, manufacturing and production, quality, merchandising, supply chain and process improvement.<br /><br />Objectives of the Program:<br />To produce professional textile and clothing technologists who are skilled in technical aspects of the business.<br />To understand the global trends and gear students to meet challenges in the market place to stay competitive."
+
+      ]
+    },
+
+    {
+      "tag": "TechnologyC3",
+      "patterns": [
+        "BTech (Hons) in Environmental Technology"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Nadeesha Ukwattage<br />Duration : 4 Years<br /><br />Our BTech in Environmental Technology program aims at preparing the graduates to be on the frontline of protecting our environment. The program is designed as a combined study of Science, Technology, and Engineering of the environmental challengers and the solutions. Students will gain an in depth, firm scientific foundation on biological, chemical and physical mechanisms of the environmental challengers and their monitoring, assessment and management with scientific and technological interventions by complying with laws, regulations and policies.<br /><br />Fields of Employment:<br />Environmental Pollution and Control<br />Environmental Toxicity Analysis<br />Environmental Monitoring and Assessment<br />Environmental Conservation and Management<br />Ecological Management and Restoration<br />Waste Management and Treatment<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) in approved subjects in Technology, Physical Science, Biological Science, or ICT stream at GCE A/L Examinations in one and the same sitting and a minimum mark of 30% for the Common General Paper."
+
+      ]
+    },
+
+    {
+      "tag": "TechnologyD2",
+      "patterns": [
+        "BTech (Hons) in Agricultural Technology"
+      ],
+      "responses": [
+        "Programme Lead : Prof.S.L Ranamukarachchi<br />Duration : 4 Years<br /><br />Agriculture is the most vital sector ensuring food security, shelter, employment, and livelihood of most people. The Agricultural Technology program envisages and works towards producing graduates capable of contributing to the country's socio-economic development by timely recognizing constraints and increasing resource use efficiency through technological inventions with the knowledge of science, engineering principles, and social sciences.<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) in approved subjects in Technology, Physical Science, Biological Science, ICT, or Agriculture stream at GCE A/L Examinations in one and the same sitting and a minimum mark of 30% for the Common General Paper."
+
+      ]
+    },
+
+    {
+      "tag": "TechnologyE1",
+      "patterns": [
+        "BTech (Hons) in Electronics"
+      ],
+      "responses": [
+        "Programme Lead : Mr.Priyashantha Tennakoon<br />Duration : 4 Years<br /><br />B.Tech Hons. in Electronics is a technical program that prepares students in the field of Electronic Technologist. Apart from Ethical Practices, Sustainability, and Industrial Law this program provides graduates with the knowledge on:<br /><br />Electrical and Electronic circuits<br />VLSI systems<br />Micro processors<br />Micro controllers<br />Printed Circuit Board (PCB) manufacturing<br />Power electronics<br />Embedded systems<br />Nanotechnology<br /><br />Eligibility Criteria:<br />The entry requirement is a minimum of 3 ordinary passes (S) in approved subjects in Technology, Physical Science, Biological Science, or ICT stream at GCE A/L Examinations in one and the same sitting and a minimum mark of 30% for the Common General Paper."
+
+      ]
+    },
+
+    {
+      "tag": "IT & Computing",
+      "patterns": [
+        "School of IT & Computing"
+      ],
+      "responses": [
+        "BSc (Hons) in Information Technology in Software Engineering<br />BSc (Hons) in Information Technology in Cloud Computing<br />BSc (Hons) in Information Technology in Cyber Security<br />BSc (Hons) in Information Technology in Data Science"
+
+      ]
+    },
+
+    {
+      "tag": "IT & ComputingA4",
+      "patterns": [
+        "BSc (Hons) in Information Technology in Data Science"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Tharanga Gunarathna<br />Duration : 4 Years<br /><br />Data science is a significant field in computer science which has seen rapid growth in recent years as companies and institutions have begun to gather data at scale across many sectors. Data science has many application areas ranging from medicine to climate and business analytics.<br />This program consisted of Computer Science and the Data science courses including the mathematical courses, which prepare students for employment in the data science arena. Candidates can specialize in data science engineering subject disciplines including the big data and analytical sciences.<br /><br />Career Opportunities:<br />Data Engineer<br />Data Analytics Engineer<br />Data Science<br />Business Intelligence (BI) Engineer<br />Big Data Analytics<br />Software Engineer ( Data Warehouse / Business Intelligence )"
+
+      ]
+    },
+
+    {
+      "tag": "IT & ComputingB3",
+      "patterns": [
+        "BSc (Hons) in Information Technology in Cyber Security"
+      ],
+      "responses": [
+        "Programme Lead : Mr.Thilina Herath<br />Duration : 4 Years<br /><br />This program, consisted of Computer Science and cyber security related courses, which prepare students for employment as cyber security engineers. Candidates can specialize in cyber security subject discipline.<br />The B.Sc. Hons. (IT.) Graduate, after specialization in cyber security, will have a high level of up-to-date technical expertise in cyber security related subject areas. The graduate will be capable of minimize the cyber threats and increase the security aspect of the software including the cloud solutions.<br /><br />Career Opportunities:<br />Forensic Computer Analyst<br />Information Security Analyst<br />Penetration Tester / Security Tester<br />IT Security Engineer<br />Cyber Security Engineer<br />Security Systems Administrator<br /><br />Eligibility Criteria:<br />GCE A/L OR Edexcel OR Cambridge<br />3 passes in approved subjects in any stream in one and the same sitting AND<br />a pass for the Bridging Program which is approved by the Ministry of Higher Education*"
+
+      ]
+    },
+
+    {
+      "tag": "IT & ComputingC2",
+      "patterns": [
+        "BSc (Hons) in Information Technology in Cloud Computing"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Dileepa Fernando<br />Duration : 4 Years<br /><br />This program, consisted of Computer Science and cloud computing related courses, which prepare students for employment as cloud computing engineers. Candidates can specialize in cloud computing subject discipline. The B.Sc. Hons. (IT.) Graduate, after specialization in cloud computing, will have a high level of up-to-date technical expertise in cloud computing related subject areas. The graduate will be capable of producing cloud software and services that are innovative, sustainable, effective and efficient, and less error prone.<br /><br />Career Opportunities:<br />Software Engineer in Cloud Computing<br />Cloud Engineer<br />Cloud System Engineer<br />Cloud Service Developer<br />Cloud System Administrator<br />Software Engineer<br /><br />Eligibility Criteria:<br />GCE A/L OR Edexcel OR Cambridge<br />3 passes in approved subjects in any stream in one and the same sitting AND<br />a pass for the Bridging Program which is approved by the Ministry of Higher Education*"
+
+      ]
+    },
+
+    {
+      "tag": "IT & ComputingD1",
+      "patterns": [
+        "BSc (Hons) in Information Technology in Software Engineering"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Nuwan Vithanage<br />Duration : 4 Years<br /><br />Since the inception the software industry has been growing rapidly in Sri Lanka. Currently there are more than 300 local and international companies operating from Sri Lanka. The Bsc (Hons) in Software Engineering degree molds a graduate capable of contributing to the vibrant software industry.<br /><br />Career Opportunities:<br />Software Engineer<br />Database Administrator<br />Game Developer<br />Multimedia Programmer<br />Web Developer<br />Web Designer<br />Software Tester<br /><br />Eligibility Criteria:<br />GCE A/L OR Edexcel OR Cambridge<br />3 passes in approved subjects in any stream in one and the same sitting AND<br />a pass for the Bridging Program which is approved by the Ministry of Higher Education*"
+
+      ]
+    },
+
+    {
+      "tag": "Business",
+      "patterns": [
+        "School of Business"
+      ],
+      "responses": [
+        "BBM (Hons) in Accounting and Finance<br />BBM (Hons) in Human Resource Management<br />BBM (Hons) in Marketing<br />BBM (Hons) in Operations Management<br />BBM (Hons) in Supply Chain Management<br />BSc in Travel and Tourism Management (General) Degree<br />BSc (Hons) in Travel and Tourism Management<br />BSc (Hons) in E-Tourism and Digital Marketing"
+
+      ]
+    },
+
+    {
+      "tag": "Business1",
+      "patterns": [
+        "BBM (Hons) in Accounting and Finance"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Hilary E.Sliva<br />Duration : 4 Years<br /><br />Career Opportunities:<br />This degree will prepare you for a career in professional accountancy, investment banking, investment analysis and management, management consultancy and financial management, and will also create a foundation for advanced academic studies in these professional disciplines. This degree, will help you to question and analyze information, develop arguments, and boost your analytical and communication skills – all of which are valued in management roles in the global employment market.<br /><br />Minimum Entry Requirements (Domestic students):<br />3 ordinary passes (S) in approved subjects in any stream at GCE A/L examinations in one sitting, And<br />A minimum mark of 30% for the Common General Paper in the same sitting.<br />Foreign Student → Equivalent Sri Lankan GCE (A/L)<br /><br />Total Duration 4 years:<br />1 & 2 years Common Programme which covered overall Management subjects such as Accounting, Finance, Marketing HRM, IT, Business Mathematic & Statistic, Economics, English, Management etc. Further this 2-year Common Programme prepares students for a career that uses basic business education combined with information systems, critical thinking, and structured solution skills.<br />3 & 4 years Specialized in Accounting & Finance<br /><br />Internship:<br />Six months in reputed Organization such as DFCC, NDB, JKH, Heleys, MAS Holding, etc."
+
+      ]
+    },
+
+    {
+      "tag": "Business2",
+      "patterns": [
+        "BBM (Hons) in Human Resource Management"
+      ],
+      "responses": [
+        "Programme Lead : Dr.Lalith A.P. Wijetunge<br />Duration : 4 Years<br /><br />Career Opportunities:<br />This specialized HRM program will enable graduates to apply for diverse positions in the industry and purse numerous career options as a HR professional. The course aims to prepare students to meet, locally and globally recognized standards of professional excellence with the necessary knowledge and skills. The HRM course combines theory with practical application to be relevant, and will be linked to the everyday work environment. Graduates will be ready to work in human resource management, employee or industrial relations, information systems, recruitment and training. Students will be encouraged to apply for internships and we will endeavor to facilitate them. This course will provide you with hands-on experience, enabling you to demonstrate relevant work experience, and make you a competitive job seeker in the HR profession.<br /><br />Minimum Entry Requirements (Domestic students):<br />3 ordinary passes (S) in approved subjects in any stream at GCE A/L examinations in one sitting, And<br />A minimum mark of 30% for the Common General Paper in the same sitting.<br />Foreign Student → Equivalent Sri Lankan GCE (A/L)<br /><br />Total Duration 4 years:<br />& 2 years Common Programme which covered overall Management subjects such as Accounting, Finance, Marketing HRM, IT, Business Mathematic & Statistic, Economics, English, Management etc. Further this 2-year Common Programme prepares students for a career that uses basic business education combined with information systems, critical thinking, and structured solution skills.<br />3 & 4 years Specialized in HRM<br /><br />Internship:<br />Six months in reputed private & public Organization in HR Division."
+
+      ]
+    },
+
+    {
+      "tag": "Business3",
+      "patterns": [
+        "BBM (Hons) in Marketing"
+      ],
+      "responses": [
+        "Programme Lead : Mr.Milinda Rajapaksha<br />Duration : 4 Years<br /><br />Career Opportunities:<br />By the time you graduate, you will not only understand the theoretical aspects of effective marketing, but will also possess a range of practical professional skills. Upon completion of our degree program, you will be provided with work opportunities as marketers in a multitude of related fields including retailing, advertising, branding, consulting, marketing research, and international marketing.<br /><br />Minimum Entry Requirements (Domestic students):<br />3 ordinary passes (S) in approved subjects in any stream at GCE A/L examinations in one sitting, And<br />A minimum mark of 30% for the Common General Paper in the same sitting.<br />Foreign Student → Equivalent Sri Lankan GCE (A/L)<br /><br />Total Duration 4 years:<br />1 & 2 years Common Programme which covered overall Management subjects such as Accounting, Finance, Marketing HRM, IT, Business Mathematic & Statistic, Economics, English, Management etc. Further this 2-year Common Programme prepares students for a career that uses basic business education combined with information systems, critical thinking, and structured solution skills.<br />3 & 4 years Specialized in Marketing<br /><br />Internship:<br />Six months in reputed Organization such as SLT, Mobitel, Dialog, MAS Holding, etc."
+
+      ]
+    },
+
+    {
+      "tag": "Business4",
+      "patterns": [
+        "BBM (Hons) in Operations Management"
+      ],
+      "responses": [
+        "Programme Lead : Ranjith J.Gunawardena<br />Duration : 4 Years<br /><br />Career Opportunities:<br />Students who pursue this study pathway will secure employment opportunities in various managerial positions related to Manufacturing, Services, Quality, Logistics, Supply Chain, and Inventory Management. During the final year of their studies, students will have the opportunity to train themselves in the industry as well as to engage in related research activities.<br /><br />Minimum Entry Requirements (Domestic students):<br />3 ordinary passes (S) in approved subjects in any stream at GCE A/L examinations in one sitting, And<br />A minimum mark of 30% for the Common General Paper in the same sitting.<br />Foreign Student → Equivalent Sri Lankan GCE (A/L)<br /><br />Total Duration 4 years:<br />1 & 2 years Common Programme which covered overall Management subjects such as Accounting, Finance, Marketing HRM, IT, Business Mathematic & Statistic, Economics, English, Management etc. Further this 2-year Common Programme prepares students for a career that uses basic business education combined with information systems, critical thinking, and structured solution skills.<br />3 & 4 years Specialized in Operations Research<br /><br />Internship:<br />Six months in reputed private or public organization."
+
+      ]
+    },
+
+    {
+      "tag": "Business5",
+      "patterns": [
+        "BBM (Hons) in Supply Chain Management"
+      ],
+      "responses": [
+        "Programme Lead : Ranjith J.Gunawardena<br />Duration : 4 Years<br /><br />Bachelor of Business Management (BBM) Supply Chain Management program offered by SLTC, presents the students with an industry relevant, current curricular, exposing them to critical, value-adding components to enhance their global employability. The objectives are to provide students with a comprehensive background in each area activity and also to allow students to focus on their areas of interest. Through the program student will develop project management and negotiation skills and will learn how to procure products and manage their handling, storage, and distribution effectively.<br />Our students at every level will be taught to improve efficiencies in supply chain operations, cost control, eliminating supply chain failures, and to moderate supply chain risks.<br /><br />Career Opportunities:<br />With the BBM Supply Chain Management degree you be able secure work opportunities in leading Supply Chain organizations. Taught by industry professionals, this degree program will instill practical skills and experience, which will help application in a range of industries, including manufacturing, transport, and warehousing."
+
+      ]
+    },
+
+    {
+      "tag": "Business6",
+      "patterns": [
+        "BSc in Travel and Tourism Management (General) Degree"
+      ],
+      "responses": [
+        "Programme Lead : MR.Rumesh B.Fernando<br />Duration : 3 Years<br /><br />BSc. in Travel and Tourism Management is a general degree program and the objective of this degree is to provide advanced and enhanced knowledge of recent development in Travel and Tourism. The courses are designed to provide theoretical knowledge and practical skills necessary to apply in solving business problems. At the completion of this programme, the candidates will be able to fit into any managerial level job in the tourism industry.<br /><br />Eligibility Criteria:<br />Candidates should have one of the following qualifications:<br /> Those who have passed GCE A/L examination with three (S) passes in any Scheme OR<br /> Any other qualification of comparable standing recognized by UGC of Sri Lanka such as Edxcel / Cambridge with three passes And<br /> All candidates should process a good knowledge in English.<br /> Candidate should also have attained the prescribed minimum standard at the aptitude test conducted by the SLTC."
+
+      ]
+    },
+
+    {
+      "tag": "Business7",
+      "patterns": [
+        "BSc (Hons) in Travel and Tourism Management"
+      ],
+      "responses": [
+        "Programme Lead : MR.Rumesh B.Fernando<br />Duration : 4 Years<br /><br />BSc. Hon. in Travel and Tourism Management is an Honours degree program and the aims to qualify the undergraduates to work independently on developing, planning, realizing and delivering experience-based services locally and internationally in Tourism organizations in performing leadership and managerial roles successfully in the competitive business environment.<br /><br />Goals of the Degree Program:<br />The student who has completed the BSc. Hon. TTM should be able to:<br />Explain and apply appropriate tourism theories and skills and employ appropriate methodologies to help an individual or organization achieve its goals and objectives<br />Function as a user advocate<br />Manage the organization resources of an individual or organization;<br />Anticipate the changing direction of the Tourism industry and evaluate and communicate the likely utility of new strategies to an individual or organization<br />Understand and, in some cases, contribute to the scientific, mathematical and theoretical foundations on which tourism sector is built on<br />Live and work as a contributing, well-rounded member of the society.<br />At the end of the second year first semester common programme(semester V), students will have the option to follow special degree programme (BSc. Hon. TTM) based on their performance, Once selected, students, have to enroll for additional courses from 300 and 400 levels to fulfill 120 credits including the industrial training and research projects.<br /><br />This program provides graduates with special knowledge on:<br />Passenger Transport Operations<br />International Travel and Tourism<br />Ticketing & Travel Logistics<br />Inbound Tours and Tour Management<br /><br />Eligibility Criteria:<br />Candidates should have one of the following qualifications:<br />a) Those who have passed GCE A/L examination with three (S) passes in any Scheme OR<br />b) Any other qualification of comparable standing recognized by UGC of Sri Lanka such as Edxcel / Cambridge with three passes And<br />c) All candidates should process a good knowledge in English.<br />d) Candidate should also have attained the prescribed minimum standard at the aptitude test conducted by the SLTC."
+
+      ]
+    },
+
+    {
+      "tag": "Business8",
+      "patterns": [
+        "BSc (Hons) in E-Tourism and Digital Marketing"
+      ],
+      "responses": [
+        "Programme Lead : MR.Rumesh B.Fernando<br />Duration : 4 Years<br /><br />The degree will introduce the student to the role of information and communications technologies (ICT) in modern tourism operations and familiarize them with the methods and management of the tourism product by electronic means<br />At the end of the second year first semester common programme(semester V), students will have the option to follow special degree programme (BSc. Hon. ETDM) based on their performance, Once selected, students have to enroll for additional courses from 300 and 400 levels to fulfill 120 credits including the industrial training and research project.<br /><br />This program provides graduates with special knowledge on:<br />Online Positioning in Search Engines (SEO) & Online Advertising<br />Web Technologies for Tourism and digital marketing<br />Network and Database Systems<br />Management Information System<br /><br />Eligibility Criteria<br />Candidates should have one of the following qualifications:<br />a) Those who have passed GCE A/L examination with three (S) passes in any Scheme OR<br />b) Any other qualification of comparable standing recognized by UGC of Sri Lanka such as Edxcel / Cambridge with three passes And<br />c) All candidates should process a good knowledge in English.<br />d) Candidate should also have attained the prescribed minimum standard at the aptitude test conducted by the SLTC."
+
+      ]
+    },
+
+    {
+      "tag": "Music",
+      "patterns": [
+        "School of Music"
+      ],
+      "responses": [
+        "Bachelor of Music"
+
+      ]
+    },
+
+    {
+      "tag": "MusicA1",
+      "patterns": [
+        "Bachelor of Music"
+      ],
+      "responses": [
+        "Programme Lead : Mr.Nadeeka Guruge<br />Duration : 4 Years<br /><br />Bachelor of Music program offered by SLTC School of Music is a novel and unique degree program that explores music - the language of the universe. Created and conducted by Mr. Nadeeka Guruge, a veteran of the Sri Lankan music industry, this degree program transcends the typical music studies and covers the science and the anthropological cores of the study of music as well. Starting with an in-depth insight into music and exploring the deep connection between music and the mankind, SLTC Bachelor of Music program takes the undergraduate through a highly practical and insightful journey in World Music, Music and Technology, Western Classical and Non-Classical Music, Eastern Music, Analysis of Music, Composing, Performing Music and more; finally creating a wholesome quintessential musician that the world needs."
+
+      ]
+    },
+
+    {
+      "tag": "Professional Studies",
+      "patterns": [
+        "School of Professional Studies"
+      ],
+      "responses": [
+        "Interactive Media:<br />Certificate in Multimedia<br />Higher Diploma in Interactive Media<br /><br />Foundation Courses:<br />SLTC Academic skills development programme"
+
+      ]
+    }
+  ]
+}
